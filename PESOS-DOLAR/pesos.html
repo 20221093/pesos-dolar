@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Pesos a Dólares</title>
+  <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+  <h1>Conversor de Pesos a Dólares</h1>
+  <form id="conversionForm">
+    <label for="amount">Monto en Pesos:</label>
+    <input type="number" id="Pesos" step="0.01" placeholder="Ingrese el monto en pesos" required>
+    <label for="exchangeRate">Valor del Dólar:</label>
+    <input type="number" id="Dolar" step="0.01" placeholder="Ingrese el valor del dólar" required>
+    <label for="result">Resultado en Dólares:</label>
+    <input type="text" id="result" readonly>
+    <input type="submit" value="Convertir">
+  </form>
+
+  <script src="result.js"></script>
+</body>
+</html>
